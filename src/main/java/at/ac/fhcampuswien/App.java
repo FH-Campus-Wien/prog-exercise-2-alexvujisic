@@ -67,8 +67,7 @@ public class App {
         int l = 0;
         System.out.print("h: ");
         int h = scan.nextInt();
-        int rows = h/2;
-        int rows2 = 0;
+        int rows = h/2; // Haelfte oben Haelfte unten
         System.out.print("c: ");
         int c = scan.next().charAt(0);
         if((h%2) != 0){
